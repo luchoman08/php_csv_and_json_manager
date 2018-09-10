@@ -2,27 +2,30 @@
 require_once(__DIR__.'/Csv.php');
 require_once(__DIR__.'/../lib/reflection.php');
 require_once(__DIR__.'/Errors/CsvManagerErrorFactory.php');
-class CsvManager {
+/**
+ * For implement this trait your class should be have public property named
+ * class_or_class_name and function named add_error, oherwise this doesnt work
+ * 
+ */ 
+trait CsvManager {
     /**
-     * PHP class than model the csv, the csv headers and the class properties
-     * should be the same, otherwise it is taken as error
+     * Check for required functions and properties for implement this trait
      */ 
-    public $class_or_class_name;
-    /**
-     * Instance of array of errors
-     * @see Error
-     */ 
-    private $errors = [];
-    private $valid = true;
-    public function __construct($class_or_class_name) {
-        $this->class_or_class_name = $class_or_class_name;
+    private function validate_caller_csv() {
+        $current_class =  get_class($this);
+        if(property_exists($current_class, 'class_or_class_name') && method_exists ($current_class, 'add_error')) {
+            return true;
+        } else {
+            throw new Error("La clase $current_class no cumple con los requisitos para implementar el trait CsvManager, (debe tener la propiedad class_or_class_name y el metodo add_error)");
+        }
     }
     /**
      * Create instances of type $this->$class_or_class_name based on contents of $file
      * @param php file $file Csv file where each row is returned as class instance
      * @returns array of $class_or_class_name instances
      */ 
-    public function create_instances($file) {
+    public function create_instances_from_csv($file) {
+        $this->validate_caller_csv();
         if(!Csv::csv_compatible_with_class($file, $this->class_or_class_name)) {
             $this->add_error(CsvManagerErrorFactory::csv_and_class_have_distinct_properties(array('class'=>$this->class_or_class_name)));
             return ;
@@ -42,25 +45,5 @@ class CsvManager {
         return $instances;
        
     }
-    /**
-     * Return true if current manager does not have any errors, false otherwise
-     * @return bool is valid manager or not 
-     */ 
-    public function is_valid() {
-        return $this->valid;
-    }
-    /**
-     * Get errors from current manager, if doesnt exist errors return empty array
-     * @return array of Errors
-     */ 
-    public function get_errors() {
-        return $this->errors;
-    }
-    private function add_error($error) {
-        $this->valid = false;
-        array_push($this->errors, $error);
-    }
-    
 }
-
 ?>

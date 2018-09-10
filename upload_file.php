@@ -21,7 +21,8 @@
         </form>
 
 
-
+<button id = "print-data">Print data</button>
+<button id = "send-data">Send data</button>
 <div class="container">
   <table cellpadding="0" cellspacing="0" border="0" class="dataTable table table-striped" id="example">
 
@@ -34,7 +35,39 @@
     <script>
     
  var myTable = null;
- 
+ /**
+  * Actually, jquery datatables data function returns an object with more 
+  * than is neccesary for get real data, this function extract the real data
+  * from datatables data whitout unnecesary info
+  * @param table Jquery Datatable
+  * @return array of data
+  * @see https://datatables.net/reference/api/rows().data()
+  */
+ function getTableData(table) {
+     table_data = table.rows().data();
+     data =[];
+     for(i=0; i < table_data.length ; i++) {
+         data.push(table_data[i]);
+     }
+     return data;
+ }
+    $("#print-data").click(
+        function( ) {
+            console.log(myTable.rows().data());
+        });
+        
+            $("#send-data").click(
+        function( ) {
+            var data = getTableData(myTable);
+            $.ajax({
+                url: 'receive_csv.php',
+                data: data,
+                type: "POST",
+                success: function(response) {
+                    console.log(response);
+                }
+            });
+        });
     $('#send-file').click(
 
         function () {

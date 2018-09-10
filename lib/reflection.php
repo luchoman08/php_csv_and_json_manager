@@ -52,7 +52,6 @@ function get_properties($stdObj_or_class){
     } else {
         return array_keys(get_object_vars($stdObj_or_class));
     }
-  
 }
 
  
