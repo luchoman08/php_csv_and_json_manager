@@ -1,0 +1,393 @@
+[06-Sep-2018 13:56:10 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/classes/EstadoAses.php on line 23
+[06-Sep-2018 13:56:10 UTC] PHP Stack trace:
+[06-Sep-2018 13:56:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 13:56:10 UTC] PHP   2. EstadoAses\EstadoAsesCSV->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:32
+[06-Sep-2018 13:56:33 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/classes/EstadoAses.php on line 23
+[06-Sep-2018 13:56:33 UTC] PHP Stack trace:
+[06-Sep-2018 13:56:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 13:56:33 UTC] PHP   2. EstadoAses\EstadoAsesCSV->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:32
+[06-Sep-2018 13:56:57 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/classes/EstadoAses.php on line 23
+[06-Sep-2018 13:56:57 UTC] PHP Stack trace:
+[06-Sep-2018 13:56:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 13:56:57 UTC] PHP   2. EstadoAses\EstadoAsesCSV->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:32
+[06-Sep-2018 13:57:17 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/classes/EstadoAses.php on line 23
+[06-Sep-2018 13:57:17 UTC] PHP Stack trace:
+[06-Sep-2018 13:57:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 13:57:17 UTC] PHP   2. EstadoAses\EstadoAsesCSV->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:32
+[06-Sep-2018 13:57:22 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/classes/EstadoAses.php on line 24
+[06-Sep-2018 13:57:22 UTC] PHP Stack trace:
+[06-Sep-2018 13:57:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 13:57:22 UTC] PHP   2. EstadoAses\EstadoAsesCSV->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:32
+[06-Sep-2018 14:04:30 UTC] PHP Fatal error:  Class 'EstadoAses\stdClass' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 36
+[06-Sep-2018 14:04:30 UTC] PHP Stack trace:
+[06-Sep-2018 14:04:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:05:01 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/ubuntu/workspace/classes/EstadoAses.php on line 36
+[06-Sep-2018 14:05:36 UTC] PHP Fatal error:  Class 'EstadoAses\stdClass' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 36
+[06-Sep-2018 14:05:36 UTC] PHP Stack trace:
+[06-Sep-2018 14:05:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:05:42 UTC] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 33
+[06-Sep-2018 14:05:42 UTC] PHP Stack trace:
+[06-Sep-2018 14:05:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:05:42 UTC] PHP   2. EstadoAses\EstadoAsesCSV::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:40
+[06-Sep-2018 14:05:42 UTC] PHP   3. get_object_vars() /home/ubuntu/workspace/classes/EstadoAses.php:33
+[06-Sep-2018 14:10:12 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/ubuntu/workspace/classes/EstadoAses.php on line 34
+[06-Sep-2018 14:14:58 UTC] PHP Fatal error:  Class 'EstadoAses\EstadoAses' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 23
+[06-Sep-2018 14:14:58 UTC] PHP Stack trace:
+[06-Sep-2018 14:14:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:14:58 UTC] PHP   2. EstadoAses\EstadoAsesCSV->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:40
+[06-Sep-2018 14:15:16 UTC] PHP Parse error:  syntax error, unexpected 'EstadoAses' (T_STRING) in /home/ubuntu/workspace/classes/EstadoAses.php on line 3
+[06-Sep-2018 14:15:28 UTC] PHP Fatal error:  Undefined class constant 'CSVDEFAULT_USERNAME' in /home/ubuntu/workspace/classes/EstadoAses.php on line 23
+[06-Sep-2018 14:15:28 UTC] PHP Stack trace:
+[06-Sep-2018 14:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:15:28 UTC] PHP   2. EstadoAses\EstadoAsesCSV->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:40
+[06-Sep-2018 14:15:36 UTC] PHP Fatal error:  Class 'EstadoAses\EstadoAsesCSV' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 40
+[06-Sep-2018 14:15:36 UTC] PHP Stack trace:
+[06-Sep-2018 14:15:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:15:42 UTC] PHP Fatal error:  Class 'EstadoAsesCSV' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 39
+[06-Sep-2018 14:15:42 UTC] PHP Stack trace:
+[06-Sep-2018 14:15:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:15:57 UTC] PHP Fatal error:  Class 'EstadoAsesCSV' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 39
+[06-Sep-2018 14:15:57 UTC] PHP Stack trace:
+[06-Sep-2018 14:15:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:16:06 UTC] PHP Fatal error:  Undefined class constant 'CSVDEFAULT_USERNAME' in /home/ubuntu/workspace/classes/EstadoAses.php on line 22
+[06-Sep-2018 14:16:06 UTC] PHP Stack trace:
+[06-Sep-2018 14:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:16:06 UTC] PHP   2. EstadoAses->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:39
+[06-Sep-2018 14:16:17 UTC] PHP Fatal error:  Undefined class constant 'DEFAULT_USERNAME' in /home/ubuntu/workspace/classes/EstadoAses.php on line 22
+[06-Sep-2018 14:16:17 UTC] PHP Stack trace:
+[06-Sep-2018 14:16:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:16:17 UTC] PHP   2. EstadoAses->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:39
+[06-Sep-2018 14:16:50 UTC] PHP Fatal error:  Undefined class constant 'DEFAULT_ESTADO_ASES' in /home/ubuntu/workspace/classes/EstadoAses.php on line 23
+[06-Sep-2018 14:16:50 UTC] PHP Stack trace:
+[06-Sep-2018 14:16:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:16:50 UTC] PHP   2. EstadoAses->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:39
+[06-Sep-2018 14:27:43 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/classes/EstadoAses.php on line 37
+[06-Sep-2018 14:27:43 UTC] PHP Stack trace:
+[06-Sep-2018 14:27:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:27:43 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:48
+[06-Sep-2018 14:28:59 UTC] PHP Fatal error:  Call to undefined method EstadoAses::have_same_properties() in /home/ubuntu/workspace/classes/EstadoAses.php on line 50
+[06-Sep-2018 14:28:59 UTC] PHP Stack trace:
+[06-Sep-2018 14:28:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:29:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase $class_name' in /home/ubuntu/workspace/classes/EstadoAses.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(50): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 40
+[06-Sep-2018 14:29:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase $class_name' in /home/ubuntu/workspace/classes/EstadoAses.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(50): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 40
+[06-Sep-2018 14:29:38 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase EstadoAses' in /home/ubuntu/workspace/classes/EstadoAses.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(50): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 40
+[06-Sep-2018 14:29:47 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(50): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 40
+[06-Sep-2018 14:35:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:72
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(85): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 72
+[06-Sep-2018 14:41:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(88): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 73
+[06-Sep-2018 14:41:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(90): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 73
+[06-Sep-2018 14:41:47 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(90): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 73
+[06-Sep-2018 14:43:56 UTC] PHP Warning:  ReflectionObject::__construct() expects parameter 1 to be object, string given in /home/ubuntu/workspace/classes/EstadoAses.php on line 72
+[06-Sep-2018 14:43:56 UTC] PHP Stack trace:
+[06-Sep-2018 14:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:43:56 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:93
+[06-Sep-2018 14:43:56 UTC] PHP   3. ReflectionObject->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:72
+[06-Sep-2018 14:43:56 UTC] PHP Fatal error:  ReflectionClass::getProperties(): Internal error: Failed to retrieve the reflection object in /home/ubuntu/workspace/classes/EstadoAses.php on line 73
+[06-Sep-2018 14:43:56 UTC] PHP Stack trace:
+[06-Sep-2018 14:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 14:43:56 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:93
+[06-Sep-2018 14:43:56 UTC] PHP   3. ReflectionClass->getProperties() /home/ubuntu/workspace/classes/EstadoAses.php:73
+[06-Sep-2018 14:44:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:76
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(93): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 76
+[06-Sep-2018 14:45:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:76
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(93): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 76
+[06-Sep-2018 14:47:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:76
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(93): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 76
+[06-Sep-2018 14:47:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(92): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 75
+[06-Sep-2018 14:48:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:68
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(85): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 68
+[06-Sep-2018 14:48:38 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(84): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 67
+[06-Sep-2018 15:04:04 UTC] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 56
+[06-Sep-2018 15:04:04 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:04 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:04 UTC] PHP   3. EstadoAses::valid_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:67
+[06-Sep-2018 15:04:04 UTC] PHP   4. get_object_vars() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[06-Sep-2018 15:04:04 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 56
+[06-Sep-2018 15:04:04 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:04 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:04 UTC] PHP   3. EstadoAses::valid_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:67
+[06-Sep-2018 15:04:04 UTC] PHP   4. array_keys() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[06-Sep-2018 15:04:04 UTC] PHP Warning:  array_diff(): Argument #2 is not an array in /home/ubuntu/workspace/classes/EstadoAses.php on line 58
+[06-Sep-2018 15:04:04 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:04 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:04 UTC] PHP   3. EstadoAses::valid_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:67
+[06-Sep-2018 15:04:04 UTC] PHP   4. array_diff() /home/ubuntu/workspace/classes/EstadoAses.php:58
+[06-Sep-2018 15:04:04 UTC] PHP Warning:  ReflectionObject::__construct() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 37
+[06-Sep-2018 15:04:04 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:04 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:04 UTC] PHP   3. EstadoAses::cast() /home/ubuntu/workspace/classes/EstadoAses.php:71
+[06-Sep-2018 15:04:04 UTC] PHP   4. ReflectionObject->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:37
+[06-Sep-2018 15:04:04 UTC] PHP Fatal error:  ReflectionClass::getProperties(): Internal error: Failed to retrieve the reflection object in /home/ubuntu/workspace/classes/EstadoAses.php on line 39
+[06-Sep-2018 15:04:04 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:04 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:04 UTC] PHP   3. EstadoAses::cast() /home/ubuntu/workspace/classes/EstadoAses.php:71
+[06-Sep-2018 15:04:04 UTC] PHP   4. ReflectionClass->getProperties() /home/ubuntu/workspace/classes/EstadoAses.php:39
+[06-Sep-2018 15:04:20 UTC] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 56
+[06-Sep-2018 15:04:20 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:20 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:20 UTC] PHP   3. EstadoAses::valid_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:67
+[06-Sep-2018 15:04:20 UTC] PHP   4. get_object_vars() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[06-Sep-2018 15:04:20 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 56
+[06-Sep-2018 15:04:20 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:20 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:20 UTC] PHP   3. EstadoAses::valid_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:67
+[06-Sep-2018 15:04:20 UTC] PHP   4. array_keys() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[06-Sep-2018 15:04:20 UTC] PHP Warning:  array_diff(): Argument #2 is not an array in /home/ubuntu/workspace/classes/EstadoAses.php on line 58
+[06-Sep-2018 15:04:20 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:20 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:20 UTC] PHP   3. EstadoAses::valid_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:67
+[06-Sep-2018 15:04:20 UTC] PHP   4. array_diff() /home/ubuntu/workspace/classes/EstadoAses.php:58
+[06-Sep-2018 15:04:20 UTC] PHP Warning:  ReflectionObject::__construct() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 37
+[06-Sep-2018 15:04:20 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:20 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:20 UTC] PHP   3. EstadoAses::cast() /home/ubuntu/workspace/classes/EstadoAses.php:71
+[06-Sep-2018 15:04:20 UTC] PHP   4. ReflectionObject->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:37
+[06-Sep-2018 15:04:20 UTC] PHP Fatal error:  ReflectionClass::getProperties(): Internal error: Failed to retrieve the reflection object in /home/ubuntu/workspace/classes/EstadoAses.php on line 39
+[06-Sep-2018 15:04:20 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:20 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:20 UTC] PHP   3. EstadoAses::cast() /home/ubuntu/workspace/classes/EstadoAses.php:71
+[06-Sep-2018 15:04:20 UTC] PHP   4. ReflectionClass->getProperties() /home/ubuntu/workspace/classes/EstadoAses.php:39
+[06-Sep-2018 15:04:49 UTC] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 56
+[06-Sep-2018 15:04:49 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:49 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:49 UTC] PHP   3. EstadoAses::valid_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:67
+[06-Sep-2018 15:04:49 UTC] PHP   4. get_object_vars() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[06-Sep-2018 15:04:49 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 56
+[06-Sep-2018 15:04:49 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:49 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:49 UTC] PHP   3. EstadoAses::valid_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:67
+[06-Sep-2018 15:04:49 UTC] PHP   4. array_keys() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[06-Sep-2018 15:04:49 UTC] PHP Warning:  array_diff(): Argument #2 is not an array in /home/ubuntu/workspace/classes/EstadoAses.php on line 58
+[06-Sep-2018 15:04:49 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:49 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:49 UTC] PHP   3. EstadoAses::valid_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:67
+[06-Sep-2018 15:04:49 UTC] PHP   4. array_diff() /home/ubuntu/workspace/classes/EstadoAses.php:58
+[06-Sep-2018 15:04:49 UTC] PHP Warning:  ReflectionObject::__construct() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/EstadoAses.php on line 37
+[06-Sep-2018 15:04:49 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:49 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:49 UTC] PHP   3. EstadoAses::cast() /home/ubuntu/workspace/classes/EstadoAses.php:71
+[06-Sep-2018 15:04:49 UTC] PHP   4. ReflectionObject->__construct() /home/ubuntu/workspace/classes/EstadoAses.php:37
+[06-Sep-2018 15:04:49 UTC] PHP Fatal error:  ReflectionClass::getProperties(): Internal error: Failed to retrieve the reflection object in /home/ubuntu/workspace/classes/EstadoAses.php on line 39
+[06-Sep-2018 15:04:49 UTC] PHP Stack trace:
+[06-Sep-2018 15:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[06-Sep-2018 15:04:49 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:86
+[06-Sep-2018 15:04:49 UTC] PHP   3. EstadoAses::cast() /home/ubuntu/workspace/classes/EstadoAses.php:71
+[06-Sep-2018 15:04:49 UTC] PHP   4. ReflectionClass->getProperties() /home/ubuntu/workspace/classes/EstadoAses.php:39
+[07-Sep-2018 13:41:38 UTC] PHP Catchable fatal error:  Object of class datatables\JSONColumn could not be converted to string in /home/ubuntu/workspace/classes/Datatables.php on line 65
+[07-Sep-2018 13:41:38 UTC] PHP Stack trace:
+[07-Sep-2018 13:41:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/Datatables.php:0
+[07-Sep-2018 13:42:21 UTC] PHP Warning:  preg_replace(): No ending delimiter '/' found in /home/ubuntu/workspace/classes/Datatables.php on line 24
+[07-Sep-2018 13:42:21 UTC] PHP Stack trace:
+[07-Sep-2018 13:42:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/Datatables.php:0
+[07-Sep-2018 13:42:21 UTC] PHP   2. datatables\JSONColumn::get_column_from_property_name() /home/ubuntu/workspace/classes/Datatables.php:65
+[07-Sep-2018 13:42:21 UTC] PHP   3. datatables\JSONColumn::get_column_title_from_property_name() /home/ubuntu/workspace/classes/Datatables.php:41
+[07-Sep-2018 13:42:21 UTC] PHP   4. preg_replace() /home/ubuntu/workspace/classes/Datatables.php:24
+[07-Sep-2018 13:47:04 UTC] PHP Fatal error:  Class 'datatables\ReflectionObject' not found in /home/ubuntu/workspace/classes/Datatables.php on line 60
+[07-Sep-2018 13:47:04 UTC] PHP Stack trace:
+[07-Sep-2018 13:47:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/Datatables.php:0
+[07-Sep-2018 13:47:04 UTC] PHP   2. datatables\get_JSON_columns() /home/ubuntu/workspace/classes/Datatables.php:72
+[07-Sep-2018 13:47:23 UTC] PHP Warning:  ReflectionObject::__construct() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/Datatables.php on line 60
+[07-Sep-2018 13:47:23 UTC] PHP Stack trace:
+[07-Sep-2018 13:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/Datatables.php:0
+[07-Sep-2018 13:47:23 UTC] PHP   2. datatables\get_JSON_columns() /home/ubuntu/workspace/classes/Datatables.php:72
+[07-Sep-2018 13:47:23 UTC] PHP   3. ReflectionObject->__construct() /home/ubuntu/workspace/classes/Datatables.php:60
+[07-Sep-2018 13:47:23 UTC] PHP Fatal error:  ReflectionClass::getProperties(): Internal error: Failed to retrieve the reflection object in /home/ubuntu/workspace/classes/Datatables.php on line 61
+[07-Sep-2018 13:47:23 UTC] PHP Stack trace:
+[07-Sep-2018 13:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/Datatables.php:0
+[07-Sep-2018 13:47:23 UTC] PHP   2. datatables\get_JSON_columns() /home/ubuntu/workspace/classes/Datatables.php:72
+[07-Sep-2018 13:47:23 UTC] PHP   3. ReflectionClass->getProperties() /home/ubuntu/workspace/classes/Datatables.php:61
+[07-Sep-2018 13:47:44 UTC] PHP Warning:  ReflectionObject::__construct() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/Datatables.php on line 59
+[07-Sep-2018 13:47:44 UTC] PHP Stack trace:
+[07-Sep-2018 13:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/Datatables.php:0
+[07-Sep-2018 13:47:44 UTC] PHP   2. get_JSON_columns() /home/ubuntu/workspace/classes/Datatables.php:71
+[07-Sep-2018 13:47:44 UTC] PHP   3. ReflectionObject->__construct() /home/ubuntu/workspace/classes/Datatables.php:59
+[07-Sep-2018 13:47:44 UTC] PHP Fatal error:  ReflectionClass::getProperties(): Internal error: Failed to retrieve the reflection object in /home/ubuntu/workspace/classes/Datatables.php on line 60
+[07-Sep-2018 13:47:44 UTC] PHP Stack trace:
+[07-Sep-2018 13:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/Datatables.php:0
+[07-Sep-2018 13:47:44 UTC] PHP   2. get_JSON_columns() /home/ubuntu/workspace/classes/Datatables.php:71
+[07-Sep-2018 13:47:44 UTC] PHP   3. ReflectionClass->getProperties() /home/ubuntu/workspace/classes/Datatables.php:60
+[07-Sep-2018 13:48:18 UTC] PHP Warning:  ReflectionObject::__construct() expects parameter 1 to be object, null given in /home/ubuntu/workspace/classes/Datatables.php on line 60
+[07-Sep-2018 13:48:18 UTC] PHP Stack trace:
+[07-Sep-2018 13:48:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/Datatables.php:0
+[07-Sep-2018 13:48:18 UTC] PHP   2. get_JSON_columns() /home/ubuntu/workspace/classes/Datatables.php:72
+[07-Sep-2018 13:48:18 UTC] PHP   3. ReflectionObject->__construct() /home/ubuntu/workspace/classes/Datatables.php:60
+[07-Sep-2018 13:48:18 UTC] PHP Fatal error:  ReflectionClass::getProperties(): Internal error: Failed to retrieve the reflection object in /home/ubuntu/workspace/classes/Datatables.php on line 61
+[07-Sep-2018 13:48:18 UTC] PHP Stack trace:
+[07-Sep-2018 13:48:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/Datatables.php:0
+[07-Sep-2018 13:48:18 UTC] PHP   2. get_JSON_columns() /home/ubuntu/workspace/classes/Datatables.php:72
+[07-Sep-2018 13:48:18 UTC] PHP   3. ReflectionClass->getProperties() /home/ubuntu/workspace/classes/Datatables.php:61
+[07-Sep-2018 14:02:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) in /home/ubuntu/workspace/classes/Datatables.php on line 5
+[07-Sep-2018 19:32:23 UTC] PHP Fatal error:  Call to undefined function class_exist() in /home/ubuntu/workspace/classes/EstadoAses.php on line 32
+[07-Sep-2018 19:32:23 UTC] PHP Stack trace:
+[07-Sep-2018 19:32:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:32:23 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:89
+[07-Sep-2018 19:32:23 UTC] PHP   3. EstadoAses::cast() /home/ubuntu/workspace/classes/EstadoAses.php:72
+[07-Sep-2018 19:32:49 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'The class E does not exist' in /home/ubuntu/workspace/classes/EstadoAses.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(72): EstadoAses::cast('E', Object(stdClass))
+#1 /home/ubuntu/workspace/classes/EstadoAses.php(89): EstadoAses::make_from_std_object(Object(stdClass))
+#2 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 33
+[07-Sep-2018 19:42:51 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'El nuevo objeto no tiene las mismas propiedades que la clase 'EstadoAses'' in /home/ubuntu/workspace/classes/EstadoAses.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/classes/EstadoAses.php(100): EstadoAses::make_from_std_object(Object(stdClass))
+#1 {main}
+  thrown in /home/ubuntu/workspace/classes/EstadoAses.php on line 84
+[07-Sep-2018 19:44:13 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home/ubuntu/workspace/lib/reflection.php on line 11
+[07-Sep-2018 19:45:02 UTC] PHP Fatal error:  Call to undefined method EstadoAses::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 36
+[07-Sep-2018 19:45:02 UTC] PHP Stack trace:
+[07-Sep-2018 19:45:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:45:02 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:55
+[07-Sep-2018 19:46:04 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 36
+[07-Sep-2018 19:46:04 UTC] PHP Stack trace:
+[07-Sep-2018 19:46:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:46:04 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:55
+[07-Sep-2018 19:46:23 UTC] PHP Warning:  The use statement with non-compound name 'reflection' has no effect in /home/ubuntu/workspace/classes/EstadoAses.php on line 3
+[07-Sep-2018 19:46:23 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 37
+[07-Sep-2018 19:46:23 UTC] PHP Stack trace:
+[07-Sep-2018 19:46:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:46:23 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[07-Sep-2018 19:53:35 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 36
+[07-Sep-2018 19:53:35 UTC] PHP Stack trace:
+[07-Sep-2018 19:53:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:53:35 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:55
+[07-Sep-2018 19:53:53 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 36
+[07-Sep-2018 19:53:53 UTC] PHP Stack trace:
+[07-Sep-2018 19:53:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:53:53 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:55
+[07-Sep-2018 19:53:58 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 36
+[07-Sep-2018 19:53:58 UTC] PHP Stack trace:
+[07-Sep-2018 19:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:53:58 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:55
+[07-Sep-2018 19:54:15 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 36
+[07-Sep-2018 19:54:15 UTC] PHP Stack trace:
+[07-Sep-2018 19:54:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:54:15 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:55
+[07-Sep-2018 19:54:29 UTC] PHP Warning:  The use statement with non-compound name 'reflection' has no effect in /home/ubuntu/workspace/classes/EstadoAses.php on line 3
+[07-Sep-2018 19:54:29 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 37
+[07-Sep-2018 19:54:29 UTC] PHP Stack trace:
+[07-Sep-2018 19:54:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:54:29 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[07-Sep-2018 19:54:56 UTC] PHP Fatal error:  Class 'r\ReflectionObject' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 37
+[07-Sep-2018 19:54:56 UTC] PHP Stack trace:
+[07-Sep-2018 19:54:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:54:56 UTC] PHP   2. r\EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:57
+[07-Sep-2018 19:55:10 UTC] PHP Fatal error:  Class 'r\reflection' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 38
+[07-Sep-2018 19:55:10 UTC] PHP Stack trace:
+[07-Sep-2018 19:55:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:55:10 UTC] PHP   2. r\EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:57
+[07-Sep-2018 19:55:21 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 38
+[07-Sep-2018 19:55:21 UTC] PHP Stack trace:
+[07-Sep-2018 19:55:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:55:21 UTC] PHP   2. r\EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:57
+[07-Sep-2018 19:55:30 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 38
+[07-Sep-2018 19:55:30 UTC] PHP Stack trace:
+[07-Sep-2018 19:55:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:55:30 UTC] PHP   2. r\EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:57
+[07-Sep-2018 19:55:57 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 37
+[07-Sep-2018 19:55:57 UTC] PHP Stack trace:
+[07-Sep-2018 19:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:55:57 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[07-Sep-2018 19:56:12 UTC] PHP Fatal error:  Call to undefined method Reflection::valid_std_object() in /home/ubuntu/workspace/classes/EstadoAses.php on line 37
+[07-Sep-2018 19:56:12 UTC] PHP Stack trace:
+[07-Sep-2018 19:56:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:56:12 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[07-Sep-2018 19:57:30 UTC] PHP Fatal error:  Class 'reflection\ReflectionObject' not found in /home/ubuntu/workspace/lib/reflection.php on line 19
+[07-Sep-2018 19:57:30 UTC] PHP Stack trace:
+[07-Sep-2018 19:57:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:57:30 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[07-Sep-2018 19:57:30 UTC] PHP   3. reflection\cast() /home/ubuntu/workspace/classes/EstadoAses.php:41
+[07-Sep-2018 19:57:40 UTC] PHP Fatal error:  Class 'reflection\ReflectionObject' not found in /home/ubuntu/workspace/lib/reflection.php on line 19
+[07-Sep-2018 19:57:40 UTC] PHP Stack trace:
+[07-Sep-2018 19:57:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 19:57:40 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:56
+[07-Sep-2018 19:57:40 UTC] PHP   3. reflection\cast() /home/ubuntu/workspace/classes/EstadoAses.php:41
+[07-Sep-2018 19:59:49 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) or \\ (T_NS_SEPARATOR) in /home/ubuntu/workspace/classes/EstadoAses.php on line 3
+[07-Sep-2018 20:03:28 UTC] PHP Warning:  The use statement with non-compound name 'reflection' has no effect in /home/ubuntu/workspace/classes/EstadoAses.php on line 3
+[07-Sep-2018 20:17:49 UTC] PHP Warning:  The use statement with non-compound name 'make_from' has no effect in /home/ubuntu/workspace/classes/EstadoAses.php on line 3
+[07-Sep-2018 20:17:49 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/lib/make_from.php on line 3
+[07-Sep-2018 20:17:49 UTC] PHP Stack trace:
+[07-Sep-2018 20:17:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 20:18:05 UTC] PHP Warning:  The use statement with non-compound name 'make_from' has no effect in /home/ubuntu/workspace/classes/EstadoAses.php on line 3
+[07-Sep-2018 20:18:06 UTC] PHP Fatal error:  Trait 'make_from_std_object' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 5
+[07-Sep-2018 20:18:06 UTC] PHP Stack trace:
+[07-Sep-2018 20:18:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 20:18:20 UTC] PHP Fatal error:  Trait 'make_from_std_object' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 5
+[07-Sep-2018 20:18:20 UTC] PHP Stack trace:
+[07-Sep-2018 20:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 20:18:31 UTC] PHP Fatal error:  Trait 'make_from\make_from_std_object' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 5
+[07-Sep-2018 20:18:31 UTC] PHP Stack trace:
+[07-Sep-2018 20:18:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 20:18:40 UTC] PHP Fatal error:  Trait 'make_from\make_from_std_object' not found in /home/ubuntu/workspace/classes/EstadoAses.php on line 5
+[07-Sep-2018 20:18:40 UTC] PHP Stack trace:
+[07-Sep-2018 20:18:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 20:20:15 UTC] PHP Fatal error:  Call to undefined function make_from\reflection\valid_std_object() in /home/ubuntu/workspace/lib/make_from.php on line 18
+[07-Sep-2018 20:20:15 UTC] PHP Stack trace:
+[07-Sep-2018 20:20:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/classes/EstadoAses.php:0
+[07-Sep-2018 20:20:15 UTC] PHP   2. EstadoAses::make_from_std_object() /home/ubuntu/workspace/classes/EstadoAses.php:38
+[07-Sep-2018 20:30:13 UTC] PHP Warning:  The use statement with non-compound name 'make_from' has no effect in /home/ubuntu/workspace/classes/EstadoAses.php on line 3
