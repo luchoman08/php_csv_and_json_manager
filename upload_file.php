@@ -53,20 +53,30 @@
  }
     $("#print-data").click(
         function( ) {
-            console.log(myTable.rows().data());
+            console.log(getTableData(myTable));
         });
         
             $("#send-data").click(
         function( ) {
-            var data = getTableData(myTable);
+            //var data = getTableData(myTable);
+            var data__ = {id: "2", name: "luis"};
             $.ajax({
-                url: 'receive_csv.php',
-                data: data,
-                type: "POST",
+              url: 'receive_csv.php',
+            data: data__,
+            type: 'POST',
                 success: function(response) {
                     console.log(response);
                 }
-            });
+            }).done(function( data, textStatus, jqXHR ) {
+     if ( console && console.log ) {
+         console.log( "La solicitud se ha completado correctamente." );
+     }
+ })
+ .fail(function( jqXHR, textStatus, errorThrown ) {
+     if ( console && console.log ) {
+         console.log( "La solicitud a fallado: " +  textStatus);
+     }
+});;
         });
     $('#send-file').click(
 
@@ -77,6 +87,7 @@
             data: data,
             cache: false,
             contentType: false,
+             processData: false,
             cache: false,
             dataType: "html",
             //contentType: 'multipart/form-data',

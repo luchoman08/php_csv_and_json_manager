@@ -2,9 +2,10 @@
 require_once('classes/EstadoAsesEIManager.php');
 require_once('classes/Datatables.php');
 $estado_ases_csv_manager = new EstadoAsesEIManager();
+
 if(!file_exists($_FILES['fileToUpload']['tmp_name']) || !is_uploaded_file($_FILES['fileToUpload']['tmp_name'])) {
+    echo "si entre";
     print_r($_POST);
-    return;
 } else {
 $estados_ases = $estado_ases_csv_manager->create_instances_from_csv(file($_FILES["fileToUpload"]["tmp_name"]));
 $sample_std_object = $estados_ases[0];
